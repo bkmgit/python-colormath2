@@ -4,6 +4,14 @@
 
 Release Notes
 =============
+3.0.2
+-----
+
+Bug Fixes
+^^^^^^^^^
+
+* Publish to PyPI
+  
 3.0.1
 _____
 
