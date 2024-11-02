@@ -4,7 +4,7 @@ import logging
 import numpy
 from numpy.linalg import pinv
 
-from colormath import color_constants
+from colormath2 import color_constants
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +15,7 @@ def _get_adaptation_matrix(wp_src, wp_dst, observer, adaptation):
     Calculate the correct transformation matrix based on origin and target
     illuminants. The observer angle must be the same between illuminants.
 
-    See colormath.color_constants.ADAPTATION_MATRICES for a list of possible
+    See colormath2.color_constants.ADAPTATION_MATRICES for a list of possible
     adaptations.
 
     Detailed conversion documentation is available at:

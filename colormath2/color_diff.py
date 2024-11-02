@@ -6,7 +6,7 @@ using various Delta E formulas.
 
 import numpy
 
-from colormath import color_diff_matrix
+from colormath2 import color_diff_matrix
 
 
 def _get_lab_color1_vector(color):

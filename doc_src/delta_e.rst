@@ -6,7 +6,7 @@ Delta E Equations
 =================
 
 Delta E equations are used to put a number on the visual difference between two
-:py:class:`LabColor <colormath.color_objects.LabColor>` instances. While
+:py:class:`LabColor <colormath2.color_objects.LabColor>` instances. While
 different lighting conditions, substrates, and physical condition can all
 introduce unexpected variables, these equations are a good rough starting point
 for comparing colors.
@@ -21,8 +21,8 @@ Example
 
 .. code-block:: python
 
-    from colormath.color_objects import LabColor
-    from colormath.color_diff import delta_e_cie1976
+    from colormath2.color_objects import LabColor
+    from colormath2.color_diff import delta_e_cie1976
 
     # Reference color.
     color1 = LabColor(lab_l=0.9, lab_a=16.3, lab_b=-2.22)
@@ -34,20 +34,20 @@ Example
 Delta E CIE 1976
 ----------------
 
-.. autofunction:: colormath.color_diff.delta_e_cie1976
+.. autofunction:: colormath2.color_diff.delta_e_cie1976
 
 
 Delta E CIE 1994
 ----------------
 
-.. autofunction:: colormath.color_diff.delta_e_cie1994
+.. autofunction:: colormath2.color_diff.delta_e_cie1994
 
 Delta E CIE 2000
 ----------------
 
-.. autofunction:: colormath.color_diff.delta_e_cie2000
+.. autofunction:: colormath2.color_diff.delta_e_cie2000
 
 Delta E CMC
 -----------
 
-.. autofunction:: colormath.color_diff.delta_e_cmc
+.. autofunction:: colormath2.color_diff.delta_e_cmc

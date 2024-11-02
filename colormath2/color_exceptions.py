@@ -4,15 +4,15 @@ This module contains exceptions for use throughout the L11 Colorlib.
 """
 
 
-class ColorMathException(Exception):
+class ColorMath2Exception(Exception):
     """
-    Base exception for all colormath exceptions.
+    Base exception for all colormath2 exceptions.
     """
 
     pass
 
 
-class UndefinedConversionError(ColorMathException):
+class UndefinedConversionError(ColorMath2Exception):
     """
     Raised when the user asks for a color space conversion that does not exist.
     """
@@ -22,7 +22,7 @@ class UndefinedConversionError(ColorMathException):
         self.message = "Conversion from %s to %s is not defined." % (cobj, cs_to)
 
 
-class InvalidIlluminantError(ColorMathException):
+class InvalidIlluminantError(ColorMath2Exception):
     """
     Raised when an invalid illuminant is set on a ColorObj.
     """
@@ -32,7 +32,7 @@ class InvalidIlluminantError(ColorMathException):
         self.message = "Invalid illuminant specified: %s" % illuminant
 
 
-class InvalidObserverError(ColorMathException):
+class InvalidObserverError(ColorMath2Exception):
     """
     Raised when an invalid observer is set on a ColorObj.
     """

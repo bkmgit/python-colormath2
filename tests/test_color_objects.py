@@ -5,8 +5,8 @@ Various tests for color objects.
 
 import unittest
 
-from colormath.color_conversions import convert_color
-from colormath.color_objects import (
+from colormath2.color_conversions import convert_color
+from colormath2.color_objects import (
     SpectralColor,
     XYZColor,
     xyYColor,

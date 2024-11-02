@@ -8,10 +8,10 @@ import math
 
 import numpy
 
-from colormath import color_constants
-from colormath import density
-from colormath.chromatic_adaptation import apply_chromatic_adaptation_on_color
-from colormath.color_exceptions import InvalidObserverError, InvalidIlluminantError
+from colormath2 import color_constants
+from colormath2 import density
+from colormath2.chromatic_adaptation import apply_chromatic_adaptation_on_color
+from colormath2.color_exceptions import InvalidObserverError, InvalidIlluminantError
 
 logger = logging.getLogger(__name__)
 
@@ -98,7 +98,7 @@ class IlluminantMixin(object):
         .. note:: This only changes the illuminant. It does no conversion
             of the color's coordinates. For this, you'll want to refer to
             :py:meth:`XYZColor.apply_adaptation \
-<colormath.color_objects.XYZColor.apply_adaptation>`.
+<colormath2.color_objects.XYZColor.apply_adaptation>`.
 
         .. tip:: Call this after setting your observer.
 

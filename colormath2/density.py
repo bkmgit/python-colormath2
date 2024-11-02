@@ -4,7 +4,7 @@ Formulas for density calculation.
 """
 
 from math import log10
-from colormath.density_standards import (
+from colormath2.density_standards import (
     ANSI_STATUS_T_BLUE,
     ANSI_STATUS_T_GREEN,
     ANSI_STATUS_T_RED,
@@ -17,12 +17,12 @@ def ansi_density(color, density_standard):
     """
     Calculates density for the given SpectralColor using the spectral weighting
     function provided. For example, ANSI_STATUS_T_RED. These may be found in
-    :py:mod:`colormath.density_standards`.
+    :py:mod:`colormath2.density_standards`.
 
     :param SpectralColor color: The SpectralColor object to calculate
         density for.
     :param numpy.ndarray density_standard: NumPy array of filter of choice
-        from :py:mod:`colormath.density_standards`.
+        from :py:mod:`colormath2.density_standards`.
     :rtype: float
     :returns: The density value for the given color and density standard.
     """

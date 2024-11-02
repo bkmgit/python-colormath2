@@ -46,36 +46,36 @@ Example
 Nayatani95 et al. Model
 ------------------------
 
-.. autoclass:: colormath.color_appearance_models.Nayatani95
+.. autoclass:: colormath2.color_appearance_models.Nayatani95
 
 Hunt Model
 -----------
 
-.. autoclass:: colormath.color_appearance_models.Hunt
+.. autoclass:: colormath2.color_appearance_models.Hunt
    :exclude-members: adjust_white_for_scc
 
 RLAB Model
 ----------
 
-.. autoclass:: colormath.color_appearance_models.RLAB
+.. autoclass:: colormath2.color_appearance_models.RLAB
 
 ATD95 Model
 ------------
 
-.. autoclass:: colormath.color_appearance_models.ATD95
+.. autoclass:: colormath2.color_appearance_models.ATD95
 
 LLAB Model
 -----------
 
-.. autoclass:: colormath.color_appearance_models.LLAB
+.. autoclass:: colormath2.color_appearance_models.LLAB
 
 CIECAM02 Model
 ---------------
 
-.. autoclass:: colormath.color_appearance_models.CIECAM02
+.. autoclass:: colormath2.color_appearance_models.CIECAM02
 
 CIECAM02-m1 Model
 ------------------
 
-.. autoclass:: colormath.color_appearance_models.CIECAM02m1
+.. autoclass:: colormath2.color_appearance_models.CIECAM02m1
 

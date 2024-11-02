@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# python-colormath documentation build configuration file, created by
+# python-colormath2 documentation build configuration file, created by
 # sphinx-quickstart on Thu Mar 20 00:32:55 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -49,8 +49,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"python-colormath"
-copyright = u"2014, Greg Taylor"
+project = u"python-colormath2"
+copyright = u"2014-2023, Greg Taylor"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -182,7 +182,7 @@ html_static_path = ["_static"]
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "python-colormathdoc"
+htmlhelp_basename = "python-colormath2doc"
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -202,8 +202,8 @@ latex_elements = {
 latex_documents = [
     (
         "index",
-        "python-colormath.tex",
-        u"python-colormath Documentation",
+        "python-colormath2.tex",
+        u"python-colormath2 Documentation",
         u"Greg Taylor",
         "manual",
     ),
@@ -237,8 +237,8 @@ latex_documents = [
 man_pages = [
     (
         "index",
-        "python-colormath",
-        u"python-colormath Documentation",
+        "python-colormath2",
+        u"python-colormath2 Documentation",
         [u"Greg Taylor"],
         1,
     )
@@ -256,10 +256,10 @@ man_pages = [
 texinfo_documents = [
     (
         "index",
-        "python-colormath",
-        u"python-colormath Documentation",
+        "python-colormath2",
+        u"python-colormath2 Documentation",
         u"Greg Taylor",
-        "python-colormath",
+        "python-colormath2",
         "One line description of project.",
         "Miscellaneous",
     ),

@@ -1,14 +1,15 @@
 Python Color Math Module (colormath)
 ====================================
 
-**Note: This module is no longer actively maintained.**
+A maintained fork of the unmaintained `python-colormath`_
+
 
 .. start-badges
 
 |actions|
 
-.. |actions| image:: https://github.com/gtaylor/python-colormath/workflows/Continuous%20Integration/badge.svg
-    :target: https://github.com/gtaylor/python-colormath/actions
+.. |actions| image:: https://github.com/bkmgit/python-colormath2/workflows/Continuous%20Integration/badge.svg
+    :target: https://github.com/bkmgit/python-colormath2/actions
     :alt: Master Build Status
 
 .. end-badges
@@ -21,18 +22,18 @@ Requirements
 
 * numpy
 * NetworkX 2.0+
-* Python 2.7 or Python 3.5+
+* Python 3.7+
 
 Installation
 ------------
 
-The easiest way to install colormath is via pip/easy_install::
+The easiest way to install colormath2 is via pip::
 
-    $ pip install colormath
+    $ pip install colormath2
 
 The development dependencies are installed as follows:
 
-    $ pip install 'colormath[development]'
+    $ pip install 'colormath2[development]'
 
 Documentation
 -------------
@@ -47,14 +48,16 @@ this directory.
 Support
 -------
 
-Head over to https://github.com/gtaylor/python-colormath
+Head over to https://github.com/bkmgit/python-colormath2
 and submit an issue if you have any problems or questions.
 
 Legal Mumbo Jumbo
 -----------------
 
 Copyright (C) 2008-2023 `Gregory Taylor`_
+Copyright (c) 2024 Benson Muite
 
-This software is licensed under the BSD License.
+This software is licensed under the BSD-2-Clause License.
 
 .. _Gregory Taylor: http://gc-taylor.com
+.. _python-colormath: https://github.com/gtaylor/python-colormath

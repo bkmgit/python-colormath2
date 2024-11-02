@@ -7,8 +7,8 @@ This module shows you how to perform various kinds of density calculations.
 # noinspection PyUnresolvedReferences
 import example_config  # noqa
 
-from colormath.color_objects import SpectralColor
-from colormath.density_standards import ANSI_STATUS_T_RED, ISO_VISUAL
+from colormath2.color_objects import SpectralColor
+from colormath2.density_standards import ANSI_STATUS_T_RED, ISO_VISUAL
 
 EXAMPLE_COLOR = SpectralColor(
     observer=2,
