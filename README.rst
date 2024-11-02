@@ -22,7 +22,7 @@ Requirements
 
 * numpy
 * NetworkX 2.0+
-* Python 3.7+
+* Python 3.8+
 
 Installation
 ------------
