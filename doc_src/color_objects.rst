@@ -5,80 +5,80 @@
 Color Objects
 =============
 
-python-colormath has support for many of the commonly used color spaces. These
+python-colormath2 has support for many of the commonly used color spaces. These
 are represented by Color objects.
 
 SpectralColor
 -------------
 
-.. autoclass:: colormath.color_objects.SpectralColor
+.. autoclass:: colormath2.color_objects.SpectralColor
 
 LabColor
 --------
 
-.. autoclass:: colormath.color_objects.LabColor
+.. autoclass:: colormath2.color_objects.LabColor
 
 LCHabColor
 ----------
 
-.. autoclass:: colormath.color_objects.LCHabColor
+.. autoclass:: colormath2.color_objects.LCHabColor
 
 LCHuvColor
 ----------
 
-.. autoclass:: colormath.color_objects.LCHuvColor
+.. autoclass:: colormath2.color_objects.LCHuvColor
 
 LuvColor
 --------
 
-.. autoclass:: colormath.color_objects.LuvColor
+.. autoclass:: colormath2.color_objects.LuvColor
 
 XYZColor
 --------
 
-.. autoclass:: colormath.color_objects.XYZColor
+.. autoclass:: colormath2.color_objects.XYZColor
 
 xyYColor
 --------
 
-.. autoclass:: colormath.color_objects.xyYColor
+.. autoclass:: colormath2.color_objects.xyYColor
 
 sRGBColor
 ---------
 
-.. autoclass:: colormath.color_objects.sRGBColor
+.. autoclass:: colormath2.color_objects.sRGBColor
 
 BT2020Color
 -----------
 
-.. autoclass:: colormath.color_objects.BT2020Color
+.. autoclass:: colormath2.color_objects.BT2020Color
 
 AdobeRGBColor
 -------------
 
-.. autoclass:: colormath.color_objects.AdobeRGBColor
+.. autoclass:: colormath2.color_objects.AdobeRGBColor
 
 HSLColor
 --------
 
-.. autoclass:: colormath.color_objects.HSLColor
+.. autoclass:: colormath2.color_objects.HSLColor
 
 HSVColor
 --------
 
-.. autoclass:: colormath.color_objects.HSVColor
+.. autoclass:: colormath2.color_objects.HSVColor
 
 CMYColor
 --------
 
-.. autoclass:: colormath.color_objects.CMYColor
+.. autoclass:: colormath2.color_objects.CMYColor
 
 CMYKColor
 ---------
 
-.. autoclass:: colormath.color_objects.CMYKColor
+.. autoclass:: colormath2.color_objects.CMYKColor
 
 IPTColor
 ---------
 
-.. autoclass:: colormath.color_objects.IPTColor
+.. autoclass:: colormath2.color_objects.IPTColor

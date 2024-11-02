@@ -7,8 +7,8 @@ This module shows some examples of Delta E calculations of varying types.
 # noinspection PyUnresolvedReferences
 import example_config  # noqa
 
-from colormath.color_objects import LabColor
-from colormath.color_diff import (
+from colormath2.color_objects import LabColor
+from colormath2.color_diff import (
     delta_e_cie1976,
     delta_e_cie1994,
     delta_e_cie2000,

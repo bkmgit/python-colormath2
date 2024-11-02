@@ -2,10 +2,10 @@
 
 .. include:: global.txt
 
-python-colormath
+python-colormath2
 ================
 
-python-colormath is a simple Python module that spares the user from directly
+python-colormath2 is a simple Python module that spares the user from directly
 dealing with
 `color math <http://www.brucelindbloom.com/index.html?Eqn_DeltaE_CMC.html>`_.
 Some features include:
@@ -19,18 +19,15 @@ Some features include:
 * Chromatic adaptations (changing illuminants).
 * RGB to hex and vice-versa.
 * 16-bit RGB support.
-* Runs on Python 2.7 and Python 3.3+.
+* Runs Python 3.7+.
 
-**License:** python-colormath is licensed under the `BSD License`_.
+**License:** python-colormath2 is licensed under the `3 Clause BSD License`_.
 
 Assorted Info
 -------------
 
 * `Issue tracker`_ - Report bugs, ask questions, and share ideas here.
 * `GitHub project`_ - Source code and issue tracking.
-* `@gctaylor Twitter`_ - Tweets from the maintainer.
-* `Greg Taylor's blog <http://gc-taylor.com/>`_ - Occasional posts about
-  color math and software development.
 
 Topics
 ------

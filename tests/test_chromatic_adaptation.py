@@ -5,7 +5,7 @@ Tests for color difference (Delta E) equations.
 
 import unittest
 
-from colormath.color_objects import XYZColor
+from colormath2.color_objects import XYZColor
 
 
 # noinspection PyPep8Naming

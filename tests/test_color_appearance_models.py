@@ -36,7 +36,7 @@ import unittest
 import numpy
 
 from numpy.testing import assert_allclose, assert_almost_equal
-from colormath.color_appearance_models import (
+from colormath2.color_appearance_models import (
     CIECAM02,
     RLAB,
     LLAB,

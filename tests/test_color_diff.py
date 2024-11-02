@@ -5,13 +5,13 @@ Tests for color difference (Delta E) equations.
 
 import unittest
 
-from colormath.color_diff import (
+from colormath2.color_diff import (
     delta_e_cie1976,
     delta_e_cie1994,
     delta_e_cie2000,
     delta_e_cmc,
 )
-from colormath.color_objects import LabColor, sRGBColor
+from colormath2.color_objects import LabColor, sRGBColor
 
 
 class DeltaETestCase(unittest.TestCase):

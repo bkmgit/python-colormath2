@@ -5,7 +5,7 @@
 Color Conversions
 =================
 
-Converting between color spaces is very simple with python-colormath. To see
+Converting between color spaces is very simple with python-colormath2. To see
 a full list of supported color spaces, see :doc:`color_objects`.
 
 All conversions happen through the ``convert_color`` function shown below.
@@ -13,7 +13,7 @@ The original Color instance is passed in as the first argument, and the
 desired Color class (not an instance) is passed in as the second argument.
 If the conversion can be made, a new Color instance will be returned.
 
-.. autofunction:: colormath.color_conversions.convert_color
+.. autofunction:: colormath2.color_conversions.convert_color
 
 Example
 -------
@@ -24,8 +24,8 @@ be instantiated and converted between.
 
 .. code-block:: python
 
-    from colormath.color_objects import LabColor, XYZColor
-    from colormath.color_conversions import convert_color
+    from colormath2.color_objects import LabColor, XYZColor
+    from colormath2.color_conversions import convert_color
 
     lab = LabColor(0.903, 16.296, -2.22)
     xyz = convert_color(lab, XYZColor)
@@ -41,8 +41,8 @@ to use a different RGB space for a conversion, you can do something like this:
 
 .. code-block:: python
 
-    from colormath.color_objects import XYZColor, HSLColor, AdobeRGBColor
-    from colormath.color_conversions import convert_color
+    from colormath2.color_objects import XYZColor, HSLColor, AdobeRGBColor
+    from colormath2.color_conversions import convert_color
 
     xyz = XYZColor(0.1, 0.2, 0.3)
     hsl = convert_color(xyz, HSLColor, through_rgb_type=AdobeRGBColor)
@@ -70,12 +70,12 @@ carries over unless explicitly overridden. If you aren't expecting this behavior
 you'll end up with variations in your converted color's numbers.
 
 To explicitly request a specific illuminant, provide the ``target_illuminant``
-keyword when using :py:func:`colormath.color_conversions.convert_color`.
+keyword when using :py:func:`colormath2.color_conversions.convert_color`.
 
 .. code-block:: python
 
-    from colormath.color_objects import XYZColor, sRGBColor
-    from colormath.color_conversions import convert_color
+    from colormath2.color_objects import XYZColor, sRGBColor
+    from colormath2.color_conversions import convert_color
 
     rgb = RGBColor(0.1, 0.2, 0.3)
     xyz = convert_color(rgb, XYZColor, target_illuminant='d50')

@@ -13,9 +13,9 @@ import logging
 import numpy
 import networkx
 
-from colormath import color_constants
-from colormath import spectral_constants
-from colormath.color_objects import (
+from colormath2 import color_constants
+from colormath2 import spectral_constants
+from colormath2.color_objects import (
     ColorBase,
     XYZColor,
     sRGBColor,
@@ -33,8 +33,8 @@ from colormath.color_objects import (
     SpectralColor,
     BT2020Color,
 )
-from colormath.chromatic_adaptation import apply_chromatic_adaptation
-from colormath.color_exceptions import InvalidIlluminantError, UndefinedConversionError
+from colormath2.chromatic_adaptation import apply_chromatic_adaptation
+from colormath2.color_exceptions import InvalidIlluminantError, UndefinedConversionError
 
 
 logger = logging.getLogger(__name__)
@@ -975,7 +975,7 @@ def convert_color(
         pass this here. Otherwise the RGB space's native illuminant
         will be used.
     :returns: An instance of the type passed in as ``target_cs``.
-    :raises: :py:exc:`colormath.color_exceptions.UndefinedConversionError`
+    :raises: :py:exc:`colormath2.color_exceptions.UndefinedConversionError`
         if conversion between the two color spaces isn't possible.
     """
     if isinstance(target_cs, str):
