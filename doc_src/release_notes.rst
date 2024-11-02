@@ -4,7 +4,36 @@
 
 Release Notes
 =============
+3.0.1
+_____
 
+Features
+^^^^^^^^
+
+* Implement support for "ITU-R BT.2020" colorspace.
+  (KelSolaar)
+* Python 3.8 to 3.13 are supported. (bkmgit)
+
+
+Backwards-Incompatible Changes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Support for Python 3.7 and below is no longer
+  guaranteed. (bkmgit)
+* Testing with nose2 instead of nose. (bkmgit)
+
+Bug Fixes
+^^^^^^^^^
+
+* Deprecated numpy.asscalar(a) has been replaced by
+  a.item(). (ZipFile)
+* Add observer and illuminant to enable reversible
+  transformations between color spaces. (KelSolaar)
+* Correct RGB Clamping range for upscaled values.
+  (MartyMacGyver)
+* Typo fixes. (timgates42)
+* Typo fixes. (thatneat)
+  
 3.0.0
 -----
 
