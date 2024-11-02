@@ -4,13 +4,22 @@
 
 Release Notes
 =============
+3.0.3
+-----
+
+Bug Fixes
+^^^^^^^^^
+
+* Correct formatting of README.rst.
+* Specify format of long_description.
+
 3.0.2
 -----
 
 Bug Fixes
 ^^^^^^^^^
 
-* Publish to PyPI
+* Publish to PyPI.
   
 3.0.1
 _____

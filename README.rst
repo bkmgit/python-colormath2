@@ -1,5 +1,5 @@
 Python Color Math2 Module (colormath2)
-====================================
+======================================
 
 A maintained fork of the unmaintained `python-colormath`_
 
