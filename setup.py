@@ -30,6 +30,7 @@ setup(
     version=colormath2.VERSION,
     description="Color math and conversion library.",
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/x-rst",
     author="Gregory Taylor",
     author_email="gtaylor@gc-taylor.com",
     maintainer="Benson Muite",
