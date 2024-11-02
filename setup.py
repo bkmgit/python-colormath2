@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import colormath
+import colormath2
 
 from setuptools import setup
 
@@ -26,8 +26,8 @@ CLASSIFIERS = [
 KEYWORDS = "color math conversions"
 
 setup(
-    name="colormath",
-    version=colormath.VERSION,
+    name="colormath2",
+    version=colormath2.VERSION,
     description="Color math and conversion library.",
     long_description=LONG_DESCRIPTION,
     author="Gregory Taylor",
