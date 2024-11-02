@@ -55,9 +55,10 @@ Legal Mumbo Jumbo
 -----------------
 
 Copyright (C) 2008-2023 `Gregory Taylor`_
+
 Copyright (c) 2024 Benson Muite
 
-This software is licensed under the BSD-2-Clause License.
+This software is licensed under the BSD-3-Clause License.
 
 .. _Gregory Taylor: http://gc-taylor.com
 .. _python-colormath: https://github.com/gtaylor/python-colormath
