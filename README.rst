@@ -12,6 +12,16 @@ A maintained fork of the unmaintained `python-colormath`_
     :target: https://github.com/bkmgit/python-colormath2/actions
     :alt: Master Build Status
 
+|PyPI|
+
+.. |PyPI| image:: https://badge.fury.io/py/colormath2.svg
+    :target: https://badge.fury.io/py/colormath2
+    :alt: Latest release on PyPI
+
+|PyPI license|
+
+.. |PyPI license| image:: https://img.shields.io/pypi/l/colormath2.svg
+   :target: https://pypi.python.org/pypi/colormath2/
 .. end-badges
 
 This module implements a large number of different color operations such as
@@ -56,7 +66,7 @@ Legal Mumbo Jumbo
 
 Copyright (C) 2008-2023 `Gregory Taylor`_
 
-Copyright (c) 2024 Benson Muite
+Copyright (C) 2024 Benson Muite
 
 This software is licensed under the BSD-3-Clause License.
 
