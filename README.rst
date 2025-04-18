@@ -30,9 +30,9 @@ color space conversions, Delta E, and density to spectral.
 Requirements
 ------------
 
-* numpy
-* NetworkX 2.0+
 * Python 3.8+
+* `numpy <https://numpy.org/>`_
+* `NetworkX <https://networkx.org/>`_ 2.0+
 
 Installation
 ------------
