@@ -61,7 +61,7 @@ This repo currently uses Windows-style line endings.
 If you see ``^M`` at the end of lines in your editor or ``git diff`` view,
 try running the following on your local clone::
 
-    git config --local global.whitespace "cr-at-eol"
+    git config --local core.whitespace "cr-at-eol"
 
 
 Documentation
