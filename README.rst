@@ -65,12 +65,21 @@ the following on your local fork::
 Documentation
 -------------
 
-For documentation, see the project webpage at:
+For documentation, there are currently two main options:
 
-    http://python-colormath.readthedocs.org/
+.. list-table::
+   :header-rows: 0
 
-There are also a lot of useful examples under the examples directory within
-this directory.
+   * - This repo's `Examples directory`_
+     - Maintained example code for this library
+
+   * - The old `python-colormath docs`_
+     - Documentation for the original ``python-colormath``
+       module
+
+.. _Examples directory:: https://github.com/pushfoo/python-colormath2/tree/main/examples
+.. _python-colormath docs:: http://python-colormath.readthedocs.org/
+
 
 Support
 -------
