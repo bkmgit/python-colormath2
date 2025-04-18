@@ -73,12 +73,12 @@ For documentation, there are currently two main options:
    * - This repo's `Examples directory`_
      - Maintained example code for this library
 
-   * - The old `python-colormath docs`_
+   * - The `old python-colormath docs`_
      - Documentation for the original ``python-colormath``
        module
 
-.. _Examples directory:: https://github.com/pushfoo/python-colormath2/tree/main/examples
-.. _python-colormath docs:: http://python-colormath.readthedocs.org/
+.. _Examples directory: https://github.com/pushfoo/python-colormath2/tree/main/examples
+.. _old python-colormath docs: http://python-colormath.readthedocs.org/
 
 
 Support
