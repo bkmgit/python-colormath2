@@ -41,7 +41,7 @@ The easiest way to install colormath2 is via pip::
 
     $ pip install colormath2
 
-The development dependencies are installed as follows:
+The development dependencies are installed as follows::
 
     $ pip install 'colormath2[development]'
 
