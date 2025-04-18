@@ -37,13 +37,30 @@ Requirements
 Installation
 ------------
 
+User Install
+^^^^^^^^^^^^
+
 The easiest way to install colormath2 is via pip::
 
     $ pip install colormath2
 
-The development dependencies are installed as follows::
+Developer Install
+^^^^^^^^^^^^^^^^^
+
+Install the development dependencies as follows::
 
     $ pip install -I -e .[development]
+
+Git and Line Endings
+====================
+
+This repo currently uses Windows-style line endings.
+
+If you see ``^M`` at the end of lines in your editor, try running
+the following on your local fork::
+
+    git config --local global.whitespace "cr-at-eol"
+
 
 Documentation
 -------------
