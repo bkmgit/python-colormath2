@@ -56,12 +56,7 @@ Contributors
 Git and Line Endings
 ====================
 
-This repo currently uses Windows-style line endings.
-
-If you see ``^M`` at the end of lines in your editor or ``git diff`` view,
-try running the following on your local clone::
-
-    git config --local core.whitespace "cr-at-eol"
+This repo currently uses Unix-style line endings.
 
 
 Documentation
@@ -94,7 +89,7 @@ Legal Mumbo Jumbo
 
 Copyright (C) 2008-2023 `Gregory Taylor`_
 
-Copyright (C) 2024 Benson Muite
+Copyright (C) 2024-2025 Benson Muite
 
 This software is licensed under the BSD-3-Clause License.
 
