@@ -30,30 +30,58 @@ color space conversions, Delta E, and density to spectral.
 Requirements
 ------------
 
-* numpy
-* NetworkX 2.0+
 * Python 3.8+
+* `numpy <https://numpy.org/>`_
+* `NetworkX <https://networkx.org/>`_ 2.0+
 
 Installation
 ------------
+
+Users
+^^^^^
 
 The easiest way to install colormath2 is via pip::
 
     $ pip install colormath2
 
-The development dependencies are installed as follows:
+Contributors
+^^^^^^^^^^^^
 
-    $ pip install 'colormath2[development]'
+#. Fork and clone the repo
+#. Create a virtual environment
+#. Install the development dependencies as follows::
+
+    $ pip install -I -e .[development]
+
+Git and Line Endings
+====================
+
+This repo currently uses Windows-style line endings.
+
+If you see ``^M`` at the end of lines in your editor or ``git diff`` view,
+try running the following on your local clone::
+
+    git config --local core.whitespace "cr-at-eol"
+
 
 Documentation
 -------------
 
-For documentation, see the project webpage at:
+For documentation, there are currently two main options:
 
-    http://python-colormath.readthedocs.org/
+.. list-table::
+   :header-rows: 0
 
-There are also a lot of useful examples under the examples directory within
-this directory.
+   * - This repo's `Examples directory`_
+     - Maintained example code for this library
+
+   * - The `old python-colormath docs`_
+     - Documentation for the original ``python-colormath``
+       module
+
+.. _Examples directory: https://github.com/pushfoo/python-colormath2/tree/main/examples
+.. _old python-colormath docs: http://python-colormath.readthedocs.org/
+
 
 Support
 -------
