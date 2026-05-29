@@ -10,7 +10,6 @@ Summary:        A python module that abstracts common color math operations
 License:        BSD-3-Clause
 URL:            %forgeurl
 Source:         %{forgeurl}/archive/%{version}/%{name}-%{version}.tar.gz
-Patch:          cie2000-calculation.patch
 
 BuildRequires:  python3-devel
 BuildRequires:  python3-nose2
